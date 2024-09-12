@@ -12,3 +12,8 @@ console.log(line2);
 numberOfBottles -= 10;
 console.log(numberOfBottles);
 console.log(line1);
+
+// variabel =.tex NAMM
+// värde = t.ex Jennifer
+
+
