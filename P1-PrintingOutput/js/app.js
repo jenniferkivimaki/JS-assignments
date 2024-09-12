@@ -7,11 +7,6 @@ console.log('third');
 console.log('fourth');
 console.log('fifth');
 
-console.log('first');
-console.log('second');
-console.log('third');
-console.log('fourth');
-
 
 //här kan jag skriva vad jag vill och ingen se//
 
@@ -21,11 +16,17 @@ let sum = x+y;
 console.log(sum);
 
 
-//var, använd > let eller const//
+//var finns, men använd > let eller const//
+//const = värdet kommer inte att ändras
 
 // number och string
-let hoursinclass=5;
-let hoursofsleep ="five"
+let hoursinclass=4;
+let hoursofsleep ="eight"
 
 console.log(hoursinclass);
 console.log(hoursofsleep);
+
+let five=5;
+let eight=8;
+let total=0;
+total= five + eight;
