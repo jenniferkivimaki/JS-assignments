@@ -1,6 +1,5 @@
 let speedInput =72;
 let speedOutput = 0;
-
 speedOutput = speedInput /3.6;
 console.log(speedOutput);
 
@@ -17,6 +16,43 @@ console.log(numberOutput);
 let remainderOutput = firstNumberInput % secondNumberInput;
 console.log(remainderOutput);
 
+// r*r*pi
+let radieInput=2;
+let piInput=Math.PI
+let areaOutput=radieInput*radieInput*piInput;
+console.log(areaOutput);
 
-//  % of dividing 11 and 4
-// % 11/4
+
+let eleven=11;
+let minusOne=-1;
+let negotiation=eleven*minusOne;
+console.log(negotiation);
+
+let weightInput=70;
+let heightInput=1.82;
+let heigtOutput=heightInput*heightInput;
+let bmiOutput=weightInput / heigtOutput;
+console.log(bmiOutput);
+
+//a2+b2=c2
+
+let katet1=3;
+let katet2 =4;
+let exponent=2;
+let katet11=katet1**exponent;
+console.log(katet11);
+let katet22=katet2**exponent;
+console.log(katet22);
+let hypotenuse=katet11+katet22;
+console.log(hypotenuse);
+let hypotnuseOutput=Math.sqrt(hypotenuse);
+
+console.log(hypotnuseOutput);
+let snabb=Math.sqrt(katet1**exponent+katet2**exponent)
+console.log(snabb);
+
+
+
+let seconds=111;
+let minutes=seconds/60;
+console.log(minutes)
