@@ -82,3 +82,7 @@ let secondNumber = getRandomInt();
 console.log(firstNumber);
 console.log(secondNumber);
 console.log(compareNumbers(firstNumber, secondNumber));
+
+
+
+
