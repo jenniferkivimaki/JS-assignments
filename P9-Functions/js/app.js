@@ -21,7 +21,7 @@ stepForward();
 function stepForward() {
   console.log("Move forward")
 }
-  function turnRight() {
+function turnRight() {
   console.log("turn right")
 }
 function turnLeft() {
@@ -29,7 +29,7 @@ function turnLeft() {
   console.log("turn left")
   console.log("turn left")
 }
-     function walkThreeSteps(){
+function walkThreeSteps(){
 stepForward();
 stepForward();
 stepForward();

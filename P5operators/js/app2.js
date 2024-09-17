@@ -20,7 +20,7 @@ console.log(remainderOutput);
 let radieInput=2;
 let piInput=Math.PI
 let areaOutput=radieInput*radieInput*piInput;
-let areOfCircle = Math.PI/2;radieInput, 2;
+//let areaOfCircle= Math.PI/2;radieInput, 2;
 console.log(areaOutput);
 
 let eleven=11;
@@ -51,4 +51,3 @@ let hypotnuseOutput=Math.sqrt(hypotenuse);
 console.log(hypotnuseOutput);
 let snabb=Math.sqrt(katet1**exponent+katet2**exponent)
 console.log(snabb);
-
