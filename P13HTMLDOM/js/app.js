@@ -1,31 +1,18 @@
-// refererar text0 till variabeln som heter textfield0"
-const textfield0 = document.getElementById("text0");
-textfield0.innerHTML = multipleBySelf(8);
-
-const headerText5 = document.getElementById("header5");
-headerText5.innerHTML = "Min sida! ";
-headerText5.style.color = "red";
-
-const button0 = document.getElementById("button0");
-button0.addEventListener("click", () => {
-  button0();
-});
+const text = document.getElementById('text');
+const button=document.getElementById('button');
 
 
-const button1 = document.getElementById("button0");
-button0.addEventListener("click", () => {
-  button0();
-});
-
-
-function multipleBySelf(numberToMultiply) {
-  return numberToMultiply * numberToMultiply;
-}
-
-
-let score ;
-//skapa en funktion som ökar numret med 1
+let score = 0;
 function increaseBy(inputNumber) {
-  return ++inputNumber
+  return score += inputNumber;
 }
 
+function updateScore() {
+  const textElement = document.getElementById('text');
+  textElement.innerHTML = `Score: ${score}`;
+}
+
+document.getElementById('button').addEventListener('click', () => {
+  increaseBy(1);
+  updateScore();
+});
