@@ -1,4 +1,3 @@
-/*
 
 function multipleBySelf(numberToMultiply) {
   return numberToMultiply * numberToMultiply;
