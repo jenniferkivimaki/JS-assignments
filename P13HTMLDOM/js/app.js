@@ -2,11 +2,12 @@ document.body.style.backgroundColor = 'lightgray';
 
 const text = document.getElementById('text');
 const button=document.getElementById('button');
-
+const header=document.getElementById('header');
+header.innerHTML='';
 
 let score = 0;
 function increaseBy(inputNumber) {
-return score += inputNumber;
+return score += inputNumber ;
 }
 
 function decreaseBy(inputNumber) {
@@ -37,3 +38,9 @@ function decreaseBy(inputNumber) {
       decreaseBy(1);
       updateScore();
     });
+
+
+
+    //funktionerna ska redan finnas, sen kan man bara hämta dem med id, och välja sina värden
+//kan skriva ut funktioner, utan att de används, och det går att köra ändå
+//fråga om <br>
