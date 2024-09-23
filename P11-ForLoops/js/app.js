@@ -53,4 +53,30 @@ for (let i = 0; i <studentNames.length; i++) {
 }
 
 
+// EN ARRAY UTAN NÅGOT I   =     let randomNumberCount = [];
 
+//
+let randomNumberCount = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+for (let i = 0; i < 100; i++) {
+  let randomNumber = getRandomInt(10);
+  //Computer, add 1 to "box 2".
+
+  randomNumberCount[randomNumber] += 1;          //[2 eller randomNumber] betyder alltså box 2    +=1   betyder lägg till 1
+console.log(randomNumber);
+}
+
+console.log(randomNumberCount);
+
+for (let i = 0; i < randomNumberCount.length; i++) {
+  console.log("I rolled " + i + " , " + randomNumberCount[i] + " times");
+}
+
+//FOR LOOPS OCH ARRAYS HAR EN NÄRA RELATION TILL VARANDRA OCH KOMBINERAS NÄSTAN JÄMT
+
+
+
+function getRandomInt (max) {
+  return Math.floor(Math.random() * max);
+
+}
