@@ -75,8 +75,6 @@ for (let i = 0; i < randomNumberCount.length; i++) {
 //FOR LOOPS OCH ARRAYS HAR EN NÄRA RELATION TILL VARANDRA OCH KOMBINERAS NÄSTAN JÄMT
 
 
-
 function getRandomInt (max) {
   return Math.floor(Math.random() * max);
-
 }
