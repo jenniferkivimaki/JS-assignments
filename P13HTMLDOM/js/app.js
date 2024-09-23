@@ -7,7 +7,7 @@ header.innerHTML='';
 
 let score = 0;
 function increaseBy(inputNumber) {
-return score += inputNumber ;
+return score += inputNumber ;     //här skulle jag kunna sätta ++score för att förbättra
 }
 
 function decreaseBy(inputNumber) {
@@ -20,11 +20,11 @@ function decreaseBy(inputNumber) {
     textElement.innerHTML = `Score: ${score}`;
 
     if (score >= 10) {
-      textElement.innerHTML += `<br>You won!`;
+      textElement.innerHTML = `You won!`;
     }
 
     else if (score <= -10) {
-      textElement.innerHTML += `<br>You loose!`;
+      textElement.innerHTML = `You loose!`;
     }
 
   }
