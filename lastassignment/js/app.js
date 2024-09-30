@@ -26,5 +26,36 @@ function getGrade() {
 getGrade();
 
 
+//UPPGIFT TVÅ
 
+let input1= 12;
+let input2= -7;
+let input3= 100;
 
+function getMinMax(){
+let minumum = 0;
+let maximum= 0;
+
+if (input1 > input2 && input1 > input3)   {
+   maximum=input1;
+}
+if (input2 > input1 && input2 > input3)   {
+   maximum=input2;
+}
+if (input3 > input1 && input3 > input2) {
+   maximum=input3;
+}
+if (input1 < input2 && input1 < input3) {
+   minumum=input1;
+}
+if (input2 < input2 && input2 < input3) {
+   minimum=input2;
+}
+if (input3 < input1 && input3 < input2) {
+   minimum=input3;
+}
+
+return "Min:" + minumum + " , " + "Max:" + maximum;
+}
+
+getMinMax();
