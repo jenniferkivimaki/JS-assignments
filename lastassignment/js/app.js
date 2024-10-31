@@ -76,21 +76,23 @@ const possibleCharacters= ["0","1","2","3","4","5","6","7","8","9", "a", "b",
 
 // console.log(possibleCharacters.length);
 //Nu vet vi att vi har 46 symboler i vår array
-
+let password= "";
+let lenghtOfPassword = 6;
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * possibleCharacters.length) ;
 }
-
 // console.log(getRandomInt());
 //consol.logga varje gång för att testa att funktionen funkar ALLTID innan du går vidare
 // i är bara namnet men är standard, i, j , k men kan likka gärna vara jennifer
 
 
-for (let i = 0; i < 6; i ++) {
-let randomArrayIndex = getRandomInt();
-console.log(possibleCharacters[randomArrayIndex]);
+for (let i = 0; i < lenghtOfPassword; i ++) {
+let randomIndex = getRandomInt();
+password += possibleCharacters[randomIndex];
 }
+
+console.log(password);
 
 // nu funkar funktionen, den tar ut 6 random "boxar" ur arrayen
 
